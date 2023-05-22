@@ -1,1 +1,1 @@
-This repository demonstrates how to use variables with dynamic blocks in terraform to create subnets within a virtual network.
+How to create a VNET with a delegated subnet using terraform
