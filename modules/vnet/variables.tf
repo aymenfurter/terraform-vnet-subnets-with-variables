@@ -1,8 +1,7 @@
-variable "subnets" {
-  description = "List of subnets"
-  type = list(object({
+variable "subnet" {
+  description = "Subnet configuration"
+  type = object({
     name           = string
     address_prefix = string
-  }))
-  default = []
+  })
 }
